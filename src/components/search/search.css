@@ -5,10 +5,10 @@
 .search-form {
   display: flex;
   margin: 2em 0;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .search-input {
-  width: 80%;
+  width: 90%;
   margin: 0 0.5em;
   padding: 1em;
 }

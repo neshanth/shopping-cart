@@ -14,7 +14,8 @@
 :root {
   --primary-color: #f5f5f5;
   --secondary-color: #000;
-  --primary-font: "Montserrat", sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
   --base-font-size: 16px;
   --color-black: #000;
   --color-white: #fff;
@@ -22,6 +23,7 @@
   --text-semi-bold: 600;
   --text-bolder: 700;
   --btn-primary: #2189ff;
+  --letter-spacing: 1.5px;
 }
 
 /* 
@@ -34,6 +36,7 @@
 body {
   font-family: var(--primary-font);
   font-size: var(--base-font-size);
+  letter-spacing: var(--letter-spacing);
 }
 
 h1 {
@@ -68,6 +71,7 @@ img {
   font-family: var(--primary-font);
   font-weight: var(--text-semi-bold);
   cursor: pointer;
+  letter-spacing: var(--letter-spacing);
 }
 .btn-primary {
   background-color: var(--btn-primary);

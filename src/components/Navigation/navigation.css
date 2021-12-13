@@ -1,6 +1,13 @@
+.logo-title {
+  color: #2189ff;
+  font-weight: 700;
+  font-family: var(--secondary-font);
+}
+
 .navigation,
 .navigation-container {
   display: flex;
+  align-items: center;
 }
 
 .navigation {
@@ -33,4 +40,11 @@
 }
 .dropdown-item:hover a {
   color: #2189ff;
+}
+
+.cart-count {
+  color: #fff;
+  padding: 0.4em;
+  background-color: #2189ff;
+  border-radius: 70%;
 }
