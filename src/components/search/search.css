@@ -1,0 +1,14 @@
+.search {
+  margin-top: 1em;
+}
+
+.search-form {
+  display: flex;
+  margin: 2em 0;
+  justify-content: space-evenly;
+}
+.search-input {
+  width: 80%;
+  margin: 0 0.5em;
+  padding: 1em;
+}

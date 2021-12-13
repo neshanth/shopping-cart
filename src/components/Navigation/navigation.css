@@ -1,0 +1,36 @@
+.navigation,
+.navigation-container {
+  display: flex;
+}
+
+.navigation {
+  flex-grow: 2;
+  justify-content: space-between;
+}
+
+.menu-item a {
+  margin: 0 1em;
+  color: var(--secondary-color);
+  font-weight: var(--text-semi-bold);
+}
+
+/* dropdown */
+
+.dropdown {
+  display: none;
+  background-color: #fff;
+  padding: 1em;
+  position: absolute;
+}
+.has-dropdown:hover .dropdown {
+  display: block;
+}
+.navigation-container {
+  position: relative;
+}
+.dropdown-item {
+  margin: 0.5em 0;
+}
+.dropdown-item:hover a {
+  color: #2189ff;
+}
