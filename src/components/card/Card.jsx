@@ -13,7 +13,7 @@ function Card({ title, price, id, image }) {
 
       <div className="product-info">
         <div className="product-price">
-          <p>${price}</p>
+          <p>&#8377;{price}</p>
         </div>
         <div className="product-title">
           <h4>

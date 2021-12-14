@@ -14,25 +14,29 @@ function Cart() {
             <img src={c.image} alt={c.tile} />
             <div className="cart-product-info">
               <p className="cart-product-title">{c.title}</p>
-              <p className="money">Rs.{c.price}</p>
+              <p className="money">&#8377;{c.price}</p>
             </div>
 
             <div className="qty-buttons">
               <AiFillMinusCircle
                 className="icon"
-                size={20}
+                size={25}
                 onClick={() => decQty(c.id)}
               />
               <p className="qty">{c.Qty}</p>
 
               <AiFillPlusCircle
-                size={20}
+                size={25}
                 className="icon"
                 onClick={() => incQty(c.id)}
               />
             </div>
 
-            <BsTrash className="btn-danger" onClick={() => deleteItem(c.id)} />
+            <BsTrash
+              size={30}
+              className="btn-danger"
+              onClick={() => deleteItem(c.id)}
+            />
           </div>
         );
       })}
@@ -40,7 +44,10 @@ function Cart() {
       <hr className="divider" />
 
       <div className="total">
-        <p>{total}</p>
+        <p>
+          <span className="total-text">TOTAL : </span>
+          &#8377;{total}
+        </p>
       </div>
     </div>
   );

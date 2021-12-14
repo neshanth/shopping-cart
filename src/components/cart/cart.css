@@ -36,6 +36,9 @@
 .btn-danger {
   color: tomato;
 }
+.btn-danger:hover {
+  cursor: pointer;
+}
 
 .divider {
   margin: 2em 0;
@@ -43,6 +46,10 @@
 .total {
   display: flex;
   justify-content: flex-end;
+}
+
+.total-text {
+  color: #2189ff;
 }
 
 .cart-content {

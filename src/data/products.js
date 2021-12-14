@@ -48,7 +48,7 @@ export const productsData = [
   {
     id: 4,
     title: "Iphone",
-    price: 15.99,
+    price: 40000,
     description:
       "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
     category: "men's clothing",
@@ -63,7 +63,7 @@ export const productsData = [
   {
     id: 5,
     title: "Huawei",
-    price: 695,
+    price: 20000,
     description:
       "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
     category: "jewelery",
@@ -78,7 +78,7 @@ export const productsData = [
   {
     id: 6,
     title: "POCO",
-    price: 168,
+    price: 10000,
     description:
       "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
     category: "jewelery",
@@ -93,7 +93,7 @@ export const productsData = [
   {
     id: 7,
     title: "Xbox Controller",
-    price: 9.99,
+    price: 1000,
     description:
       "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
     category: "jewelery",
@@ -108,7 +108,7 @@ export const productsData = [
   {
     id: 8,
     title: "Playstation Controller",
-    price: 10.99,
+    price: 1500,
     description:
       "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
     category: "jewelery",
@@ -123,7 +123,7 @@ export const productsData = [
   {
     id: 9,
     title: "Pendrive",
-    price: 64,
+    price: 800,
     description:
       "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
     category: "electronics",
