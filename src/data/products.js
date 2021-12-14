@@ -35,7 +35,7 @@ export const productsData = [
     price: 250000,
 
     description:
-      "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "Power. It’s in the Air.Our thinnest, lightest notebook, completely transformed by the Apple M1 chip. CPU speeds up to 3.5x faster. GPU speeds up to 5x faster. Our most advanced Neural Engine for up to 9x faster machine learning. The longest battery life ever in a MacBook Air. And a silent, fanless design. This much power has never been this ready to go.",
     category: "Laptop",
     image:
       "https://res.cloudinary.com/dxuyggyd8/image/upload/v1639017851/Shopping/Macbook.jpg",
@@ -50,7 +50,7 @@ export const productsData = [
     title: "Iphone",
     price: 40000,
     description:
-      "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "We designed a totally new architecture and turned the lenses 45 degrees to fit in our best dual-camera system ever — with its biggest Wide camera sensor. We also made room for our sensor-shift optical image stabilisation. And we equipped the Ultra Wide camera with a faster sensor.New Ultra Wide camera reveals more detail in the dark areas of your photos.New Wide camera captures 47% more light for better photos and videos",
     category: "men's clothing",
     image:
       "https://res.cloudinary.com/dxuyggyd8/image/upload/v1639018009/Shopping/Iphone.jpg",
@@ -65,7 +65,7 @@ export const productsData = [
     title: "Huawei",
     price: 20000,
     description:
-      "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "Fitting the large screen and battery into a compact body, HUAWEI P50 Pro is lighter than the previous generation and a better fit in your hand.The 6.6 inch screen⁠1 has been individually tuned to show you a true-to-life world. Supporting 120 Hz screen refresh rate⁠2 and 300 Hz touch sampling rate⁠9, it offers a smooth viewing experience.",
     category: "jewelery",
     image:
       "https://res.cloudinary.com/dxuyggyd8/image/upload/v1639018189/Shopping/Huawei.jpg",
@@ -80,7 +80,7 @@ export const productsData = [
     title: "POCO",
     price: 10000,
     description:
-      "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "Xiaomi has smartly used Poco brand to offer its devices in a rebadged avatar. We have already seen a slew of phones offered to consumers in that fashion. And the latest model to make its way to the market is the Poco X3 Pro. This phone comes with a 6.67-inch LCD display with support for Full HD+ resolution at 1080x2400 pixels. The screen gets a punch hole design and offers pixel density of 395 PPI. The X3 Pro from Poco gets octa-core Snapdragon 860 chipset, paired with 6GB RAM to deliver performance and meet your daily needs. The device offers 128GB onboard storage that is expandable up to 1TB.",
     category: "jewelery",
     image:
       "https://res.cloudinary.com/dxuyggyd8/image/upload/v1639018592/Shopping/POCO.jpg",
@@ -95,7 +95,7 @@ export const productsData = [
     title: "Xbox Controller",
     price: 1000,
     description:
-      "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "Compatible with Xbox One and Xbox One S, compatible with Windows 10 via Bluetooth.Now features a 3.5 millimeter stereo headset jack that lets you plug your favorite gaming headset right into the controller.Now the controller can be updated wirelessly instead of needing to connect a micro USB cable (each sold separately).Feel the action with impulse triggers, vibration motors in the triggers provide precise fingertip feedback bringing weapons,crashes and jolts to life for a whole new level of gaming realism,Bluetooth works only for Windows 10.",
     category: "jewelery",
     image:
       "https://res.cloudinary.com/dxuyggyd8/image/upload/v1639018725/Shopping/Xbox%20Controller.jpg",
@@ -110,7 +110,7 @@ export const productsData = [
     title: "Playstation Controller",
     price: 1500,
     description:
-      "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "See even more of your games with the integrated light bar that glows with various colours depending on in-game action - now visible on the touch pad.Rock and roll as a highly sensitive built-in accelerometer and gyroscope detect the motion, tilt and rotation of your DualShock 4 wireless controller.Bring your games to life and hear every detail with sound effects coming directly from your DualShock 4 wireless controller.Easily programmable : Quickly scroll through every button combination on a compact digital screen and assign them with a single button press",
     category: "jewelery",
     image:
       "https://res.cloudinary.com/dxuyggyd8/image/upload/v1639018873/Shopping/Playstation%20Controller.jpg",

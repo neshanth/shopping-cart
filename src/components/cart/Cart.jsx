@@ -14,7 +14,7 @@ function Cart() {
             <img src={c.image} alt={c.tile} />
             <div className="cart-product-info">
               <p className="cart-product-title">{c.title}</p>
-              <p className="money">&#8377;{c.price}</p>
+              <p className="money">&#8377;{c.price.toLocaleString("en-IN")}</p>
             </div>
 
             <div className="qty-buttons">
