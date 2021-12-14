@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import { productsData } from "../../data/products";
 import "./singleproduct.css";
 import { useGloablContext } from "../../context/context";
+import Loading from "../loading/Loading";
 
 function SingleProduct() {
   const [loading, setLoading] = useState(true);
@@ -17,7 +18,11 @@ function SingleProduct() {
   }, [product]);
 
   if (loading) {
-    return <h2>Loading...</h2>;
+    return (
+      <div className="product-container container">
+        <Loading />
+      </div>
+    );
   }
 
   return (
