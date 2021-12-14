@@ -59,6 +59,23 @@ const reducer = (state, action) => {
       let cartItems = state.cart.filter((cart) => cart.id !== action.payload);
       return { ...state, cart: [...cartItems] };
 
+    case "SEARCH_PRODUCTS":
+      if (state.query) {
+        const filteredProducts = productsData.filter((product) => {
+          return product.title
+            .toLowerCase()
+            .includes(state.query.toLowerCase());
+        });
+
+        return { ...state, products: [...filteredProducts] };
+      } else {
+        return { ...state, products: [...productsData] };
+      }
+
+    case "CHANGE_QUERY":
+      let queryText = action.payload;
+      return { ...state, query: queryText };
+
     default:
       return state;
   }

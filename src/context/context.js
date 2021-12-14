@@ -8,12 +8,12 @@ const AppProvider = ({ children }) => {
   const defaultState = {
     cart: [],
     total: 0,
+    query: "",
+    products: [...productsData],
   };
 
-  const [products, setProducts] = useState(productsData);
   const [state, dispatch] = useReducer(reducer, defaultState);
   const [count, setCount] = useState(0);
-  const [query, setQuery] = useState("");
 
   const addToCart = (id) => {
     dispatch({ type: "ADD_TO_CART", payload: id });
@@ -31,28 +31,23 @@ const AppProvider = ({ children }) => {
     dispatch({ type: "DELETE_ITEM", payload: id });
   };
 
+  const changeQuery = (query) => {
+    dispatch({ type: "CHANGE_QUERY", payload: query });
+  };
+  const searchProducts = (e) => {
+    e.preventDefault();
+    dispatch({ type: "SEARCH_PRODUCTS" });
+  };
+
   useEffect(() => {
     setCount(state.cart.length);
     dispatch({ type: "GET_TOTALS" });
   }, [state.cart]);
 
-  const searchProducts = (e) => {
-    e.preventDefault();
-    if (query) {
-      const filteredProducts = productsData.filter((product) => {
-        return product.title.toLowerCase().includes(query.toLowerCase());
-      });
-
-      setProducts([...filteredProducts]);
-    } else {
-      setProducts([...productsData]);
-    }
-  };
-
   return (
     <AppContext.Provider
       value={{
-        products,
+        products: state.products,
         addToCart,
         count,
         cart: state.cart,
@@ -60,8 +55,9 @@ const AppProvider = ({ children }) => {
         decQty,
         total: state.total,
         searchProducts,
-        setQuery,
+        query: state.query,
         deleteItem,
+        changeQuery,
       }}
     >
       {children}
