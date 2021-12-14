@@ -52,4 +52,7 @@
   .product-container .btn {
     align-self: center;
   }
+  .product-details h2 {
+    font-size: 1.8rem;
+  }
 }

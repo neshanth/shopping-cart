@@ -19,7 +19,7 @@ export const productsData = [
     title: "Dell Inspiron 3000",
     price: 55000,
     description:
-      " An optional backlit keyboard means that you can keep working no matter what the lighting conditions are.",
+      "Don’t be fooled. Built inside this thin design are the latest Intel®processor options. The Inspiron 15 3000 Series has a slim 22mm edge, so you can slip it in your laptop bag or travel bag without losing precious space.It’s easy to watch your favorite movies and be productive on this roomy, 15-inch screen.11th Generation Intel® Core™ i5-1135G7 Processor (8MB Cache, up to 4.2 GHz)",
     category: "Laptop",
     image:
       "https://res.cloudinary.com/dxuyggyd8/image/upload/v1639017608/Shopping/Dell%20Inspiron%203000.jpg",
