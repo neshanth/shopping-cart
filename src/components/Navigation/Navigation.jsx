@@ -19,7 +19,7 @@ function Navigation() {
         <ul className="navigation-container">
           <li className="menu-item">
             <Link to="/cart">
-              <CgShoppingCart size={25} color="#2189ff" />
+              <CgShoppingCart size={25} />
             </Link>
           </li>
           <p className="cart-count">{count}</p>

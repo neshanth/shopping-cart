@@ -47,3 +47,13 @@
   padding: 0.4em;
   background-color: #2189ff;
 }
+
+.menu-item a {
+  color: #2189ff;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: tomato;
+  }
+}
