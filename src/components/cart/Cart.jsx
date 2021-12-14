@@ -33,7 +33,7 @@ function Cart() {
             </div>
 
             <BsTrash
-              size={30}
+              size={20}
               className="btn-danger"
               onClick={() => deleteItem(c.id)}
             />
